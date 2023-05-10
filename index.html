@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/classes.css" />
+    <link rel="stylesheet" href="/assets/css/elements.css" />
+    <link rel="stylesheet" href="/assets/css/menu.css" />
     <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/variables.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,33 +17,44 @@
     />
     <title>Landing Page</title>
   </head>
-  <body>
-    <section class="main-bg section">
-      <div class="main-content">
-        <h1>Olá Lucas!!! Bora começar!!!</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-          et corrupti voluptatibus consequuntur? Dolorum esse a itaque nam odio
-          omnis ducimus ipsam adipisci aliquid! Velit nihil iure alias
-          blanditiis libero?
-        </p>
+  <body class="main-bg">
+    <aside class="menu white-bg">
+      <div class="main-content menu-content">
+        <h1><a href="#">LOGO</a></h1>
+        <nav>
+          <ul>
+            <li><a href="#">intro</a></li>
+            <li><a href="#">top3</a></li>
+            <li><a href="#">gallery</a></li>
+            <li><a href="#">work</a></li>
+            <li><a href="#">contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section class="intro main-bg section">
+      <div class="main-content intro-content">
+        <div class="intro-text-content">
+          <h2>January brings us Firefox 85</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia iure
+            vel autem architecto quaerat quibusdam cum veritatis dolore modi
+            nesciunt facilis officia laudantium possimus dignissimos, dolor eum
+            dolorum ullam repellat.
+          </p>
+        </div>
+        <div class="intro-img-content">
+          <img
+            src="/assets/img/intro-img.svg"
+            alt="Homem segurando a logo do css, ao lado direito dele tem uma mulher empurrando a logo do javascript e mais a direita tem outro homem segurando a logo do hmtl."
+          />
+        </div>
       </div>
     </section>
-    <section class="white-bg section">
-      <div class="main-content">
-        <h1>Olá Lucas!!! Bora começar!!!</h1>
-        <h2>Teste</h2>
-        <h3>Teste</h3>
-        <h4>Teste</h4>
-        <h5>Teste</h5>
-        <h6>Teste</h6>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-          et corrupti voluptatibus consequuntur? Dolorum esse a itaque nam odio
-          omnis ducimus ipsam adipisci aliquid! Velit nihil iure alias
-          blanditiis libero?
-        </p>
-      </div>
-    </section>
+
+    <section class="white-bg section"></section>
   </body>
 </html>

@@ -1,0 +1,49 @@
+.main-bg {
+  background-image: url(/assets/img/main-bg.svg);
+  background-position: center center;
+  background-size: cover;
+  color: var(--white-color);
+}
+
+.white-bg {
+  background: var(--white-color);
+}
+
+.main-content {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: var(--gap);
+}
+
+.section {
+  min-height: 100vh;
+}
+
+.intro-content {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: var(--gap);
+  height: 100vh;
+  align-items: center;
+}
+
+.intro-text-content {
+  display: flex;
+  flex-flow: column wrap;
+  text-align: justify;
+}
+
+.intro-text-content h2 {
+  font-size: 6rem;
+  margin-bottom: 5rem;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.intro-img-content img {
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+}
