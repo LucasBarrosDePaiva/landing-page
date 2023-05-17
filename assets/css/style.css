@@ -485,7 +485,7 @@ body .full-width {
   border: 0.1rem solid var(--primary-color);
 }
 
-@media (max-width: 50rem /*800px*/) {
+@media (max-width: 56.25rem /*900px*/) {
   .top3-description-text-content {
     display: grid;
   }
