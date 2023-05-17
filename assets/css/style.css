@@ -485,7 +485,7 @@ body .full-width {
   border: 0.1rem solid var(--primary-color);
 }
 
-@media (max-width: 56.25rem /*900px*/) {
+@media (max-width: 50rem /*800px*/) {
   .top3-description-text-content {
     display: grid;
   }
@@ -494,6 +494,10 @@ body .full-width {
   .grid,
   .top3-description-text-content {
     grid-template-columns: 1fr;
+  }
+
+  .grid {
+    min-height: 100vh;
   }
 
   .gallery-img {
