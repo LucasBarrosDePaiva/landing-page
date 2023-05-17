@@ -195,7 +195,8 @@ table td {
 .intro-main-content {
   max-width: 120rem;
   margin: 0 auto;
-  padding: 20rem var(--gap);
+  padding: var(--gap);
+  padding-top: 20rem;
 }
 
 .section {
