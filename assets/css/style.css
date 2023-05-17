@@ -192,6 +192,12 @@ table td {
   padding: 5rem var(--gap);
 }
 
+.intro-main-content {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 20rem var(--gap);
+}
+
 .section {
   min-height: 100vh;
 }
@@ -200,7 +206,6 @@ table td {
   display: grid;
   grid-template-columns: 1fr 1.5fr;
   gap: var(--gap);
-  align-items: center;
 }
 
 .intro-text-content {
