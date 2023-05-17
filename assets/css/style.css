@@ -470,6 +470,7 @@ body .full-width {
 }
 
 .back-to-top {
+  content: "⮞";
   position: fixed;
   bottom: 2rem;
   right: 2rem;
